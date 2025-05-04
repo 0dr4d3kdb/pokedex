@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+
+body{
+    background-color: #111111;
+}
+
+#form{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#form > input, button{
+    color: #111111;
+}
+
+#datos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    row-gap: .7rem;
+}
+
+#number {
+    font-size: 2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+}
+
+#image{
+    height: 30vh;
+    font-weight: 300;
+}
+
+#types{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.type{
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    border-width: 1px;
+    border-radius: 15px;
+    border-style: solid;
+}
+
+#description{
+    width: 100%;
+    padding: 0px 10%;
+    text-align: center;
+}
+
+#stats{
+    display: flex;
+    width: 100%;
+    padding: 0px 10%;
+    flex-direction: column;
+}
+
+.stat{
+    display: flex;
+    width: 100%;
+}
+
+.stat-name{
+    min-width: 20%;
+    max-width: 20%;
+}
+
+.barra{
+    width: 70%;
+    background-color: #ffffff;
+    height: 3px;
+    margin: auto 0;
+}
+
+.bar{
+    height: 3px;
+}
+
+.stat-value{
+    width: 10%;
+    text-align: right;
+}
+
+button{
+    cursor: pointer;
+}
